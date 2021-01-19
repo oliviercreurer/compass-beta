@@ -1,4 +1,4 @@
--- Compass
+-- Compass Beta 0.01
 
 lattice = require("lattice")
 
