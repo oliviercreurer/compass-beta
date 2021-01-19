@@ -1,6 +1,6 @@
 # Compass Beta v.0.1
 
-> Beta 0.1 does yet support grid, arc, or command/unit saving + loading. 
+> Beta 0.1 does yet support grid, arc, unit saving/loading, or the crow commands (`T` and `V`). 
 
 Compass has 3 pages:
 
