@@ -31,8 +31,8 @@ Use `K2` as a "focus" selector. There are three focus areas on the `Play` page: 
 |             | K3 (hold) | Reset commands | --- |
 | Probability row | E2 | Select step | N | --- |
 |                 | E3 | Select probability at step | N | --- |
-|                 | K3 | Randomize probabilities | N | --- |
-|                 | K2 + K3 | Reset all probabilities to 100% | N | --- |
+|                 | K2 + K3 | Randomize probabilities | N | --- |
+|                 | K3 (hold) | Reset all probabilities to 100% | N | --- |
 |                 | K2 + E3 | Adjust all probabilities | N | --- |
 
 ### Units
