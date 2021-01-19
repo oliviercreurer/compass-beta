@@ -10,6 +10,8 @@ Use `E1` to scroll between them.
 
 ### Play 
 
+![Play page](https://embed-ssl.wistia.com/deliveries/4fe9b2b7fdc81d0d4a36a1c889ebebced74e1c86.png)
+
 Use `K2` as a "focus" selector. There are three focus areas on the `Play` page: the `tape row`, the `command row`, and the `probability` row. Focus is indicated by the little `<` on the right side of the screen.
 
 | Focus | Key/Encoder | Action | Midi-mappable? | Note |
@@ -33,6 +35,8 @@ Use `K2` as a "focus" selector. There are three focus areas on the `Play` page: 
 
 ### Units
 
+![Units page](https://embed-ssl.wistia.com/deliveries/790a6b02b4e190af0ac27fabcb8071ceafd7e45c.png)
+
 Again, use `K2` as a focus selector. The `Units` page has four focus areas: `Unit`, `tape row`, `command row`, and `probability row`. 
 
 | Focus | Key/Encoder | Action | Midi-mappable | Note |
@@ -45,6 +49,8 @@ Again, use `K2` as a focus selector. The `Units` page has four focus areas: `Uni
 | Probability row | - | - | - | Most "probability" actions from `Play` page available here |
 
 ### Config
+
+![Config page](https://embed-ssl.wistia.com/deliveries/65e35766ab55be3564396b86d3eaba993a40a1ae.png)
 
 Use `E2` to scroll through the commands, and use `K3` to toggle them on/off. Turning a command off will _not_ wipe out your existing command sequences -- it will only replace instances of that newly disabled command to the first availble enabled command and leave everything else intact! 
 
