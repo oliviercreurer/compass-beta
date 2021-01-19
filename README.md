@@ -1,3 +1,5 @@
+# Compass Beta v.0.1
+
 > Beta 0.1 does yet support grid, arc, or command/unit saving + loading. 
 
 Compass has 3 pages:
