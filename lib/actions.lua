@@ -85,7 +85,7 @@ function key_3_actions(k,z)
         else
           if selector == id.tape then state = 1 - state ; toggle_app_state(state)
           elseif selector == id.command then set[loaded()]:randomize_commands(user_commands())
-          elseif selector == id.prob then set[loaded()]:reset_probs()
+          elseif selector == id.prob then set[loaded()]:randomize_probs()
           end
         end
       elseif edit.page == 2 then
@@ -94,13 +94,14 @@ function key_3_actions(k,z)
           elseif selector == id.unit and edit.unit <= #set and set[edit.unit].isLoaded ~= true then load(set[edit.unit]); edit.page = 1; selector = 2; if params:get("unitrec") == 1 then recLevel = 1 end
           elseif selector == id.tape then ---
           elseif selector == id.command then set[edit.unit]:randomize_commands(user_commands())
-          elseif selector == id.prob then set[edit.unit]:randomize_probs()
+          -- elseif selector == id.prob then set[edit.unit]:randomize_probs()
           end
         else -- if key2 is pressed then
               if selector == id.unit and edit.unit <= #set and set[edit.unit].isLoaded == false then load(set[edit.unit]); edit.page = 1; selector = 2; recLevel = 1;
           elseif selector == id.tape then ---
           elseif selector == id.command then set[edit.unit]:randomize_commands(user_commands())
-          elseif selector == id.prob then set[loaded()]:reset_probs()
+          --elseif selector == id.prob then set[loaded()]:reset_probs()
+          elseif selector == id.prob then set[edit.unit]:randomize_probs()
           end
         end
       elseif edit.page == 3 then
@@ -117,9 +118,12 @@ function key_3_actions(k,z)
       if edit.page == 1 then
         if     selector == id.command then set[loaded()]:reset_commands(user_commands())
         elseif selector == id.tape then reset_buffers()
+        elseif selector == id.prob then set[loaded()]:reset_probs()
         end
       elseif edit.page == 2 then
-        if selector == id.command then set[loaded()]:reset_commands(user_commands()) end
+        if selector == id.command then set[edit.unit]:reset_commands(user_commands()) 
+        elseif selector == id.prob then set[edit.unit]:reset_probs() 
+        end
       end
     end
   end
