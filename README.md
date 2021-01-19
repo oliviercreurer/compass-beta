@@ -1,3 +1,5 @@
+> Beta X does yet support grid, arc, or command/unit saving + loading. 
+
 Compass has 3 pages:
 
 - `Play`
@@ -45,3 +47,9 @@ Again, use `K2` as a focus selector. The `Units` page has four focus areas: `Uni
 ### Config
 
 Use `E2` to scroll through the commands, and use `K3` to toggle them on/off. Turning a command off will _not_ wipe out your existing command sequences -- it will only replace instances of that newly disabled command to the first availble enabled command and leave everything else intact! 
+
+-----
+
+### Params
+
+[...]
