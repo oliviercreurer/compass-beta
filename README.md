@@ -1,4 +1,4 @@
-> Beta X does yet support grid, arc, or command/unit saving + loading. 
+> Beta 0.1 does yet support grid, arc, or command/unit saving + loading. 
 
 Compass has 3 pages:
 
